@@ -4,8 +4,17 @@ body {
 }
 
 body {
+  display: flex;
   background-image: url(./background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.logo-section {
+  width: 40%;
+}
+
+.sign-up-form {
+  width: 60%;
 }
