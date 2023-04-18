@@ -1,3 +1,12 @@
+@font-face {
+  font-family: Nasalization;
+  src: url("./nasalization-rg.otf");
+}
+
+:root {
+  font-size: 62.5%;
+}
+
 html,
 body {
   height: 100%;
@@ -5,16 +14,40 @@ body {
 
 body {
   display: flex;
-  background-image: url(./background.jpg);
+  background-image: url("./background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 1.6rem;
 }
 
 .logo-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 40%;
+  margin-top: 25vh;
+
+  color: #fff;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 130px;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: Nasalization;
+  font-size: 6rem;
+}
+
+.logo-container img {
+  height: 100%;
 }
 
 .sign-up-form {
   width: 60%;
+  background-color: #fff;
 }
