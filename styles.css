@@ -132,6 +132,7 @@ body {
   padding: 15px 50px;
   border: none;
   border-radius: 5px;
+  box-shadow: 3px 3px 5px #b8bbbb;
 
   background-color: #393ec8;
   color: #fff;
