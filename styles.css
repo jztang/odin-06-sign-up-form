@@ -118,9 +118,20 @@ body {
   border-radius: 5px;
 }
 
+.input-wrapper .error {
+  border: 1px solid red;
+}
+
 .input-wrapper input:focus {
   border: 1px solid #393ec8;
   box-shadow: 3px 3px 5px #dddede;
+}
+
+.input-wrapper .error-msg {
+  padding-top: 5px;
+  color: red;
+  font-size: 1.2rem;
+  visibility: hidden;
 }
 
 .form-submit {
